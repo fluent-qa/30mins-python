@@ -1,0 +1,19 @@
+repo:
+  - https://github.com/milaan9?tab=repositories
+
+tools:
+  - https://github.com/cyyc1/jupyter-notebook-parser
+  - https://github.com/voila-dashboards/voici.git
+  - https://github.com/jupyterlite/j
+  - https://github.com/remykarem/python2jupyter
+  - https://ipython-books.github.io/
+  - https://github.com/markusschanta/awesome-jupyter
+  - https://jupyterhub.readthedocs.io/en/stable/tutorial/quickstart.html
+  - https://github.com/fastai/nbdev
+  - https://github.com/mwouts/jupytext
+  - https://github.com/nteract/papermill
+  - https://github.com/marimo-team
+  - https://github.com/jupyter/nbconvert
+
+data:
+  - https://github.com/bokeh/bokeh
