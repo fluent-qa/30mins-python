@@ -1,0 +1,18 @@
+*** EXAMPLE BELOW, USE WITHIN INLINE EDITING TOOL IN CURSOR.SH ***
+
+Add Guardrails AI to this markdown table, with the following information:
+
+Name:
+Guardrails AI
+
+Link:
+https://shreyar.github.io/guardrails/
+
+Description:
+An open-source Python package for specifying structure and type, validating, and correcting the outputs of LLMs
+
+Github repo base URL:
+https://github.com/ShreyaR/guardrails
+
+Pip package name:
+guardrails-ai

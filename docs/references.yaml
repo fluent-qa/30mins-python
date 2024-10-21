@@ -1,0 +1,61 @@
+advanced:
+  - https://github.com/omnilib/trailrunner.git
+orm:
+  - https://github.com/collerek/ormar.git
+model:
+  - https://github.com/rnag/dataclass-wizard.git
+meta:
+  - https://github.com/lycantropos/paradigm.git
+data:
+  - https://github.com/clarkgrubb/data-tools.git
+
+tutorials:
+  - https://github.com/mouredev/Hello-Python.git
+  - https://github.com/talkpython
+  - https://www.pluralsight.com/
+  - https://github.com/testdrivenio/fastapi-sqlmodel-alembic.git
+  - https://github.com/rochacbruno/fastapi-workshop.git
+  - https://martinxpn.medium.com/the-grand-finale-wrapping-up-our-100-days-of-python-journey-52b4a8e9e7b6
+  - https://github.com/realpython
+blogs:
+  - https://auth0.com/blog/sqlalchemy-orm-tutorial-for-python-developers/
+  - https://www.digitalocean.com/community/tutorials
+  - https://www.udemy.com/course/practical-sql-with-python-in-3-days/
+  - https://blog.miguelgrinberg.com/post/my-courses-and-books
+  - https://www.datacamp.com/tutorial/sqlalchemy-tutorial-examples
+  - https://planetscale.com/blog/using-mysql-with-sql-alchemy-hands-on-examples
+  - https://www.geeksforgeeks.org/python3-tutorial/?ref=shm
+  - https://github.com/realpython/materials/tree/master
+  - https://github.com/palewire/python-open-source-template.git
+  - https://help.rainforestqa.com/docs/who-should-own-qa
+  - https://webscraping.fyi/overview/languages/#html-parsers
+podcast:
+  - https://www.pythonpodcast.com/
+  - https://www.educative.io/
+  - https://superfastpython.com/
+pytest_plugin:
+  - https://github.com/pytest-dev/pytest-order
+  - https://pytest-dependency.readthedocs.io/
+
+prompts:
+  - https://www.promptingguide.ai/zh/introduction/settings
+trends:
+  - https://news.miracleplus.com/feeds?tab=hot
+  - https://hub.baai.ac.cn/events
+  - https://aibard123.com/
+  - https://piptrends.com/
+  - https://refto.one/
+  - https://xiaohu.ai/
+  - https://xbai.ai/
+  - https://www.aihunt.one/
+  - https://topai.tools/
+  - https://www.plusdocs.com/
+  - https://gapis.money/
+  - https://www.toolify.ai/zh/
+carbon:
+  - https://www.epmap.org/
+  - http://openkg.cn/data/
+  - https://briefgpt.xyz/lm
+  - https://navi.co2.press/index.html
+TODO:
+  - https://github.com/AICodeHunt

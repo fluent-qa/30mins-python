@@ -1,0 +1,6 @@
+mirrors:
+  - https://mirrors.tuna.tsinghua.edu.cn/
+
+website:
+  - https://python-poetry.org/
+  - https://davidvujic.github.io/python-polylith-docs/setup/

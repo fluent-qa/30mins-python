@@ -1,0 +1,96 @@
+[project]
+name = "revisited"
+version = "0.1.0"
+description = "30 minutes of Python"
+authors = [
+    { name = "fluent-qa team", email = "fluent-qa@fluentqa.com" },
+]
+dependencies = [
+
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = { text = "MIT" }
+
+
+[tool.poetry]
+name = "revisited"
+version = "0.1.0"
+description = ""
+authors = ["fluent-qa  <fluent-qa@fluentqa.com>"]
+readme = "README.md"
+packages = [{ from ='src',include = "revisited" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic-settings = "^2.3.1"
+
+[tool.pdm]
+distribution = false
+#plugins = ["pdm-mina"]
+
+[tool.pdm.dev-dependencies]
+lint = [
+    "ruff>=0.4.8",
+]
+pytest = [
+    "pytest-cov>=5.0.0",
+]
+
+docs = [
+    "mkdocs>=1.6.0",
+    "mkdocs-material>=9.5.26",
+]
+pre-commit = []
+
+
+
+[tool.pdm.scripts]
+lint = "ruff . --unsafe-fixes"
+fmt = "ruff format ."
+docs = "mkdocs serve"
+docs-deploy ="mkdocs gh-deploy --force"
+cleanup ="rm -rf site __pycache__ .pdm-build .ruff_cache"
+test="pytest"
+#[build-system]
+#requires = ["poetry-core"]
+#build-backend = "poetry.core.masonry.api"
+
+[build-system]
+requires = ["mina-build>=0.2.5"]
+build-backend = "pdm.backend"
+
+#[build-system]
+#requires = ["pdm-backend", "pdm-polylith-workspace"]
+#build-backend = "pdm.backend"
+
+[[tool.poetry.source]]
+name = "douban"
+url = "https://pypi.doubanio.com/simple/"
+priority = "supplemental"
+
+[[tool.poetry.source]]
+name = "mirrors"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+priority = "primary"
+
+
+[tool.ruff]
+select = [
+    "B", # flake8-bugbear
+    "C4", # flake8-comprehensions
+    "E", # pycodestyle - Error
+    "F", # Pyflakes
+    "I", # isort
+    "W", # pycodestyle - Warning
+    "UP", # pyupgrade
+]
+ignore = [
+    "E501", # line-too-long
+    "W191", # tab-indentation
+]
+include = ["**/*.py", "**/*.pyi", "**/pyproject.toml"]
+
+[tool.ruff.pydocstyle]
+convention = "google"
+
