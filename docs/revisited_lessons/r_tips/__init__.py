@@ -1,0 +1,1 @@
+# flask langchain requests sentence-transformers chromadb openai

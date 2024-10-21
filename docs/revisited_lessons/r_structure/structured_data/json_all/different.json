@@ -1,0 +1,9 @@
+{
+  "values_changed": {
+    "root": {
+      "new_value": "\n{\n    \"name\": \"China\",\n    \"population\": TEST,\n    \"capital\": \"Beijing\",\n    \"languages\": [\n        \"Chinese\"\n    ],\"students\": {\n        \"name\": \"name\",\n        \"age\":18\n    }\n}\n",
+      "old_value": "\n{\n   \"name\": \"China\",\n   \"population\": 1431002651,\n   \"capital\": \"Beijing\",\n   \"languages\": [\n      \"Chinese\"\n   ]\n}\n",
+      "diff": "--- \n+++ \n@@ -1,9 +1,12 @@\n \n {\n-   \"name\": \"China\",\n-   \"population\": 1431002651,\n-   \"capital\": \"Beijing\",\n-   \"languages\": [\n-      \"Chinese\"\n-   ]\n+    \"name\": \"China\",\n+    \"population\": TEST,\n+    \"capital\": \"Beijing\",\n+    \"languages\": [\n+        \"Chinese\"\n+    ],\"students\": {\n+        \"name\": \"name\",\n+        \"age\":18\n+    }\n }"
+    }
+  }
+}
