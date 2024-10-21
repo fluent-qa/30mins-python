@@ -2,7 +2,10 @@
 
 Everyday 30 minutes for Python.
 
-## Lessons
+## 1. Basic Lessons
 
-- [1-Python-Project-Setup](python pdm/poetry setup project)
-- 
+- [1-Python-Project-Setup](docs/lessons/project-setup/pdm-poetry-setup.md)python pdm/poetry setup project
+
+## 2. Project Based
+
+- [1-网页自动化/爬虫]
