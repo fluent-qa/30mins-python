@@ -163,3 +163,5 @@ cython_debug/
 #.idea/
 .venv/
 erupts-web/
+.pdm-python
+pdm.lock
