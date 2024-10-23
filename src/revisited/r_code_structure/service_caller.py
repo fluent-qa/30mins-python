@@ -2,5 +2,10 @@
 # -*- coding:utf-8 -*-
 from revisited.r_code_structure import services
 
-services.method_1()
-services.method_2()
+
+def caller_invoke():
+    services.method_1()
+    services.method_2()
+
+
+caller_invoke()
